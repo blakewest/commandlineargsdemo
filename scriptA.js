@@ -10,6 +10,7 @@ var options = commandLineArgs(optionDefinitions);
 var coolHelperFunction = require('./scriptB.js').coolHelperFunction;
 
 if (options.withHelper) {
+  console.log("It worked!");
   coolHelperFunction(options);
 }
 else {
